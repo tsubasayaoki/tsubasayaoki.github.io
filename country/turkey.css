@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ .clearfix::after{
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+ }
+
+ body{
+ 	background-image:url(turkeybackground.jpg);
+ 	height:1200px;
+ }
+ .back{
+ 	background-color:white;
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	text-align: center;
+
+}
+h1{
+	font-size: 65px;
+	border-color: black;
+	border-style: double;
+	width: 70%;
+	text-align: center;
+	margin: 0px auto;
+
+}
+ .mosk{
+ 	height: 100px;
+ 	width: auto;
+ 	border-radius: 10px;}
+
+ .dress{
+ 	height: 200px;
+ 	width: auto;
+ 	border-radius: 10px;
+
+ }
+
+ .turkeygl{
+ 	height: 200px;
+ 	width: auto;
+ 	border-radius: 10px;
+
+ }
+
+ .hammam{
+ 	height: 200px;
+ 	width: auto;
+ 	border-radius: 10px;
+
+ }
+
+ .bazar{
+ 	height: 200px;
+ 	width: auto;
+ 	border-radius: 10px;
+
+ }
+
+ .efes{
+ 	height: 200px;
+ 	width: auto;
+ 	border-radius: 10px;
+
+ }
+
+ .intokyo{
+ 	font-weight: bold;
+ }
+
+ .ryohi{
+ 	color: red;
+ 	font-weight: bold;
+ }
+
+ .toblog{
+ 	font-weight: bold;
+ 	font-size: 20px;
+ }
+
+ .osusume{
+ 	width: 500px;
+ 	border-style: dotted;
+ 	border-color: black;
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
+
+ a{font-weight: bold}
+
+ .go{
+ 	font-weight: bold;
+ 	font-size: 50px;
+
+ }
+ .train{
+    color:#848484;
+    font-size: 8px;
+ }

@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-align: center;
+
+ }
+
+ .clearfix::after{
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+ }
+
+ .header {
+	color: #dc143c;
+	font-family:Courier;
+	font-size:60px;
+	background-color: white;
+
+}
+
+.title {
+	color: #808080;
+	font-family: 'YuGothic';
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.titlelogo{
+	height: 100px;
+	text-align: center;
+	margin: 0,auto;
+
+
+}
+.tab {
+	color: white;
+	background-color: #dc143c;
+	font-size: 18px;
+	float: left;
+	padding-top: 50px;
+	padding: 10px;
+	border: 2px dotted #808080;
+	cursor: pointer;
+
+
+}
+
+
+.pic {
+	padding-top:80px;
+	text-align: center;
+
+}
+
+.pict{
+	float:left;
+	margin: 20px;
+	height: 200px;
+	border-radius: 10px;
+
+}
+

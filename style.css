@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ .clearfix::after{
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+ }
+
+ .header {
+	color: #dc143c;
+	font-family:Courier;
+	font-size:60px;
+	background-color: white;
+	text-align:center;
+
+}
+
+.title {
+	color: #808080;
+	font-family: 'YuGothic';
+	font-size: 20px;
+}
+
+.map {
+	width: 1200px;
+	padding-top: 70px;
+	position: relative;
+	
+}
+
+
+.tab {
+	color: white;
+	background-color: #dc143c;
+	font-size: 18px;
+	float: left;
+	padding-top: 50px;
+	padding: 10px;
+	border: 2px dotted #808080;
+	cursor: pointer;
+
+}
+
+
+.main {
+	list-style: none;
+}
+.continent {
+	color: black;
+	font-size: 10px;
+	background-color: #808080;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 10px 5px 5px #D3D3D3;
+	height: 30px;
+	width: 80px;
+	padding: 10px;
+	cursor: url(img/airplanered.png),text;
+	float: left;
+	z-index: 999;
+}
+
+.countries {
+	color: white;
+	font-size: 10px;
+	background-color:#D8D8D8;
+	text-align: center;
+	height: 25px;
+	width: 80px;
+	list-style: none;
+	z-index: 999;
+	opacity: 0;
+
+}
+.countries:hover{opacity: 10;
+}
+
+
+
+.europe {
+	position: absolute;
+	top: 490px;
+	left: 170px;
+}
+
+.europe2 {
+	position:absolute;
+	top: 490px;
+	left: 170px;
+}
+
+
+.middleeast {
+	position: absolute;
+	top: 550px;
+	left: 200px;
+}
+
+.middleeast2 {
+	position: absolute;
+	top: 290px;
+	left: 100px;
+}
+.africa {
+	position: absolute;
+	top: 640px;
+	left: 120px;
+}
+.japan {
+	position: absolute;
+	top: 550px;
+	left: 580px;
+}
+.asia {
+	position: absolute;
+	top: 520px;
+	left: 350px;
+}
+
+.asia2 {
+	position: absolute;
+	top: 275px;
+	left: 175px;
+
+}
+
+.oceania {
+	position: absolute;
+	top: 750px;
+	left: 500px;
+}
+
+.northamerica {
+	position: absolute;
+	top: 480px;
+	left: 910px;
+}
+.centralandsouthamerica {
+	position: absolute;
+	top: 700px;
+	left: 1080px;
+}
